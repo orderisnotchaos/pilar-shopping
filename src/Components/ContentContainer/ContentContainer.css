@@ -1,0 +1,25 @@
+    .content-container{
+
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-rows: 12%;        
+        justify-content: center;
+        width: 100%;
+        min-height: max-content;
+    }
+
+
+@media screen and (min-width:600px) {
+    
+    .content-container{
+        display: grid;
+        column-gap: 10%;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 45% 45%;
+        height: 100%;
+        margin:5%;
+        row-gap: 5%;
+        width:90%;
+    }
+
+}

@@ -1,0 +1,112 @@
+
+.web-nav-bar{
+    background: green;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: grid;
+    height: 5.6rem;
+    width: 100%;
+}
+
+.search-bar-input{
+    all: unset;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    text-align: start;
+    padding: 4px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.search-bar-input:hover{
+    background: whitesmoke;
+}
+
+.nav-bar-search-button{
+    all: unset;
+    width: 3.6rem;
+}
+
+.nav-bar-search-button:hover{
+    cursor: pointer;
+}
+
+.maginfying-glass{
+    color: rgba(155,155,155,0.6);
+}
+
+.maginfying-glass:hover{
+    color: rgba(90, 90, 90, 0.6);
+}
+
+.maginfying-glass:active{
+    color: rgb(0, 0, 0);
+}
+
+.nav-bar-ul{
+    all:unset;
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+}
+
+.nav-bar-li-1{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 20%;
+}
+
+.nav-bar-li-1:hover{
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(0,0,0,.4),rgba(0,0,0,0) 100%);
+}
+
+.nav-bar-li-1:active{
+    background: linear-gradient(0deg, rgba(0,0,0,.6),rgba(0,0,0,0) 100%);
+}
+
+.nav-bar-li-2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+}
+
+.nav-bar-li-3{
+    height: 100%;
+    width: 40%;
+}
+
+.nav-bar-center-ul{
+    all: unset;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar-center-li{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 50%;
+
+}
+
+
+.nav-bar-center-li:hover{
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(0,0,0,.4),rgba(0,0,0,0) 100%);
+}
+
+.nav-bar-center-li:active{
+    background: linear-gradient(0deg, rgba(0,0,0,.6),rgba(0,0,0,0) 100%);
+}

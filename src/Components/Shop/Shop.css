@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.shop-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+}
+
+.shop-h4{
+    display: none;
+}
+
+.mobile-shop-h4{
+    align-items: center;
+    color: white;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.shop-image-fade-component{
+
+    align-items: center;
+    background: rgba(0,0,0,1);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    opacity: 0;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+
+.shop-img{
+    border-radius: 15px;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    z-index: 90;
+}
+
+.shop-link{
+    display: flex;
+    height: 80%;
+    position: relative;
+    width: 100%;
+
+}
+
+.shop-link-link{
+    width: 100%;
+    height: 100%;
+}
+
+.shop-image-fade-component:hover{
+    cursor: pointer;
+    border-radius: 15px;
+    animation: .6s forwards fadetoblack;
+}
+
+
+@keyframes fadetoblack{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: .65;
+    }
+}
+
+
+@media screen and (min-width:600px) {
+
+    .mobile-shop-h4{
+        display:none;
+    }
+    .shop-h4{
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        height: 1.6rem;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .shop-container{
+
+        height: 264px;
+        width: 100%;
+ 
+    }
+
+    @keyframes fadetoblack{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: .45;
+        }
+    }
+}
