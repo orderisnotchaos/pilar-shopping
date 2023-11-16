@@ -10,7 +10,7 @@ import NotFound from './Routes/NotFound/NotFound';
 
 
 function App() {
-  const APIURL = 'http://localhost:8001/';
+  const APIURL = 'http://pilar-shopping.com:8001/';
   const [businesses,setBusinesses] = useState([]);
   const [displayedBusinesses,setDisplayedBusinesses] = useState([]);
   
